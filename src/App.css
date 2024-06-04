@@ -1,0 +1,386 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Poppins:ital,wght@1,300;1,400;1,500&display=swap');
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.logo img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid red
+}
+
+.logo{
+    width:50%;
+}
+
+
+
+.banner{
+    height: 100vh;
+    background: linear-gradient(rgb(0,0,0,0.281),rgb(0,0,0,0.388)),url();
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}   
+
+.texto .titulo{
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+
+.texto .sub_titulo{
+    color: white;
+    font-size: 58px;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+
+.meio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.meio img{
+    width: 200px;
+}
+
+.oficina{
+    height: 100vh;
+    background: linear-gradient(rgb(0,0,0,0.281),rgb(0,0,0,0.388)),url();
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.textos .titulo2{
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.textos .sub_titulo2{
+    color: white;
+    font-size: 58px;
+    font-weight: 600;
+}
+
+.sobre{
+    height: 100vh;
+    background: linear-gradient(rgb(0,0,0,0.281),rgb(0,0,0,0.388)),url();
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.text {
+    color: white;
+    font-size: 13px;
+    font-weight:500 ;
+}
+
+.button{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: px;
+}
+
+.button:hover{
+    color: red;
+}
+
+.h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+}
+.africa img  {
+    width: 100%;
+    height: 100%;
+    min-height: 360px;
+    object-fit: contain;
+    max-height: 360px;
+    object-position: center;
+    box-shadow: 0 0.1rem 0.5rem rgb(0, 0, 0);
+    transition: all 0.9s;
+}
+
+.honda{
+    max-width: 1500px;
+    width: 100%;
+    border: 1px solid #f1f2f2;
+    transition: border .3s ease-in-out;
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulos{
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 0.1rem 0.5rem rgb(0, 0, 0); 
+    position: relative;
+    transition: all 0.9s;
+}
+
+.titan img  {
+    width: 100%;
+    height: 100%;
+    min-height: 360px;
+    object-fit: contain;
+    max-height: 360px;
+    object-position: center;
+    box-shadow: 0 0.1rem 0.5rem rgb(2, 2, 2);
+    transition: all 0.9s;
+}
+
+.crf img  {
+    width: 100%;
+    height: 100%;
+    min-height: 360px;
+    object-fit: contain;
+    max-height: 360px;
+    object-position: center;
+    box-shadow: 0 0.1rem 0.5rem rgb(0, 0, 0);
+    transition: all 0.9s;
+}
+
+.lander_250 img{
+    width: 100%;
+    height: 100%;
+    min-height: 360px;
+    object-fit: contain;
+    max-height: 360px;
+    object-position: center;
+    box-shadow: 0 0.1rem 0.5rem rgb(0, 0, 0);
+    transition: all 0.9s;
+}
+
+.iamanha{
+    max-width: 1500px;
+    width: 100%;
+    border: 1px solid #f1f2f2;
+    transition: border .3s ease-in-out;
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.yz125 img  {
+    width: 100%;
+    height: 100%;
+    min-height: 360px;
+    object-fit: contain;
+    max-height: 360px;
+    object-position: center;
+    box-shadow: 0 0.1rem 0.5rem rgb(0, 0, 0);
+    transition: all 0.9s;
+}
+
+.yz250 img  {
+    width: 1250px;
+    height: 100%;
+    min-height: 360px;
+    object-fit: contain;
+    max-height: 360px;
+    object-position: center;
+    box-shadow: 0 0.1rem 0.5rem rgb(0, 0, 0);
+    transition: all 0.9s;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.logo {
+    width: 120px;
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 40px;
+    box-shadow: 0 0.1rem 0.5rem black;
+    width: 100%;
+    background-color: #fff;
+    transition: all 0.5s;
+    position: relative;
+}
+
+.header-nav ul{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.header-nav ul li a{
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.5s;
+
+}
+
+.header-nav ul li a:hover{
+ color:red;
+}
+
+.ktm-nav ul li a:hover{
+   color:  rgb(255, 166, 0);
+}
+.ktm-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 40px;
+    box-shadow: 0 0.1rem 0.5rem black;
+    width: 100%;
+    background-color: #fff;
+    transition: all 0.5s;
+    position: relative;
+}
+.ktm-nav ul{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+.ktm-nav ul li a{
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.5s;
+
+}
+
+.suzuki-nav ul li a:hover{
+    color:  rgb(255, 238, 0);;
+ }
+ .suzuki-nav{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 18px 40px;
+     box-shadow: 0 0.1rem 0.5rem black;
+     width: 100%;
+     background-color: #fff;
+     transition: all 0.5s;
+     position: relative;
+ }
+ .suzuki-nav ul{
+     display: flex;
+     align-items: center;
+     gap: 5rem;
+ }
+ .suzuki-nav ul li a{
+     color: black;
+     font-size: 17px;
+     font-weight: 500;
+     transition: all 0.5s;
+ }
+
+ .husqvarna-nav ul li a:hover{
+    color:  rgb(0, 68, 255);;
+ }
+ .husqvarna-nav{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 18px 40px;
+     box-shadow: 0 0.1rem 0.5rem black;
+     width: 100%;
+     background-color: #fff;
+     transition: all 0.5s;
+     position: relative;
+ }
+ .husqvarna-nav ul{
+     display: flex;
+     align-items: center;
+     gap: 5rem;
+ }
+ .husqvarna-nav ul li a{
+     color: black;
+     font-size: 17px;
+     font-weight: 500;
+     transition: all 0.5s;
+ 
+ }
+
+ .kawasaki-nav ul li a:hover{
+    color:  rgb(9, 255, 0);;
+ }
+ .kawasaki-nav{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 18px 40px;
+     box-shadow: 0 0.1rem 0.5rem black;
+     width: 100%;
+     background-color: #fff;
+     transition: all 0.5s;
+     position: relative;
+ }
+ .kawasaki-nav ul{
+     display: flex;
+     align-items: center;
+     gap: 5rem;
+ }
+ .kawasaki-nav ul li a{
+     color: black;
+     font-size: 17px;
+     font-weight: 500;
+     transition: all 0.5s;
+ 
+ }
+
+ .yamanha-nav ul li a:hover{
+    color:  rgb(4, 0, 255);;
+ }
+ .yamanha-nav{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 18px 40px;
+     box-shadow: 0 0.1rem 0.5rem black;
+     width: 100%;
+     background-color: #fff;
+     transition: all 0.5s;
+     position: relative;
+ }
+ .yamanha-nav ul{
+     display: flex;
+     align-items: center;
+     gap: 5rem;
+ }
+ .yamanha-nav ul li a{
+     color: black;
+     font-size: 17px;
+     font-weight: 500;
+     transition: all 0.5s;
+ 
+ }
